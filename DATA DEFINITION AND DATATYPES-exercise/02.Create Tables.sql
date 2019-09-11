@@ -1,0 +1,13 @@
+CREATE TABLE minions
+(
+id INT NOT NULL PRIMARY KEY,
+name VARCHAR(50),
+age VARCHAR(99)
+);
+CREATE TABLE towns
+(
+id INT NOT NULL PRIMARY KEY,
+name VARCHAR(50)
+);
+
+
