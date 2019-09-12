@@ -24,3 +24,5 @@ address_id INT(11) NOT NULL,
 PRIMARY KEY(id),
 FOREIGN KEY(department_id) REFERENCES departments(id),
 FOREIGN KEY(address_id) REFERENCES addresses(id));
+
+ALTER TABLE employees DROP address_id;
