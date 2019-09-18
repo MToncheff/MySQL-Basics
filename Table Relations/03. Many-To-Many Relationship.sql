@@ -14,7 +14,7 @@ CREATE TABLE students_exams
 student_id INT(11) NOT NULL,
 exam_id INT(11) NOT NULL,
 
-PRIMARY KEY (student_id, exam_id),
+CONSTRAINT PK_primary_keys PRIMARY KEY (student_id, exam_id),
 
 CONSTRAINT FK_student_id FOREIGN KEY (student_id)
 REFERENCES students(student_id),
